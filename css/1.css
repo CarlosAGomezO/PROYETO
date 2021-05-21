@@ -1,0 +1,85 @@
+.pri *{
+margin:0px;
+padding: 0px;
+}
+.pri{
+  border: 3px solid #516078;
+  width: 900px;
+  margin: 3%  auto;
+}
+.sec{
+  margin: 20px auto;
+  width: 600px;
+  border: 3px dashed black;
+  padding: 6px 12px 6px 6px;
+}
+.sec h2{
+  color:red;
+  font-size: 15px;
+  text-align: center;
+}
+.tti{
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 1px solid #6D8F73;
+  width: 800px;
+}
+.tti h1{
+  color :#6D8F73;
+  font-size: 60px;
+  text-align: center;
+}
+.ingr{
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+  border-top: 1px solid #6D8F73;
+  display: flex;
+  padding-top: 35px;
+}
+.unidad{
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+  border-top: 1px double #6D8F73;
+  display: flex;
+  padding-top: 20px;
+}
+.ingr button{
+  margin-left:7px;
+  margin-top: 10px;
+  background: #D8DBDF;
+  border: 0px solid white;
+}
+.ingr div{
+  width: 50px;
+  background: #D8DBDF;
+  border: 0px solid white;
+}
+.fondotexto{
+  background: #D8DBDF;
+  border: 0px solid white;
+  color:black;
+  padding: 5px;
+  width: 800px;
+  font-size: 20px;
+}
+.fe-chan{
+  color:#8994A5;
+  font-size: 18px;
+  padding-left: 15px;
+  font-style: oblique;
+}
+.outcom{
+  font-size: 20px;
+  padding-left: 5px;
+  color:#516078;
+}
+.send button img {
+  cursor: pointer;
+}
+.veri:invalid + .send{
+  display: none;
+}
