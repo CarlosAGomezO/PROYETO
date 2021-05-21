@@ -1,0 +1,183 @@
+@font-face {
+  font-family:letra;
+  src:url(../Fuentes/LU.ttf);
+}
+@font-face {
+  font-family:letra1;
+  src:url(../Fuentes/LO.ttf);
+}
+@font-face {
+  font-family:letra2;
+  src:url(../Fuentes/LA.otf);
+}
+@font-face {
+  font-family:letra3;
+  src:url(../Fuentes/SET.otf);
+}
+
+body{
+margin:0px auto 0px auto;
+font-family:letra;
+width: 1350px;
+background: #D8DBDF;
+}
+
+footer{
+background-color: #516078;
+color: white;
+font-size: 200%;
+font-family:letra1;
+}
+.final{
+height: 25px;
+}
+header{
+  width: 1310px;
+  display: flex;
+  position: fixed;
+  top:0px;
+  z-index: 2;
+  background-color: #516078;
+  height: 70px;
+  font-family:letra1;
+  padding: 0 20px;
+}
+.ras{
+    height: 66px;
+}
+.MODONOCHE{
+  margin:0;
+  position: fixed;
+  display: inline-flex;
+  z-index: 2;
+  bottom: 5%;
+  right: 2%;
+  background-color: white;
+  padding: 0px 15px;
+  border: 8px solid #222934;
+  border-radius: 20px;
+}
+.MODONOCHE h1{
+  margin: 0;
+  color: white;
+  font-family: letra3;
+  text-align: center;
+  font-size: 30px;
+  cursor:pointer;
+}
+#NOCHE:hover{
+  color:red;
+}
+#DIA:hover{
+  color:#ACE7B6;
+}
+#NOCHE{
+  color:black;
+  margin-right: 15px;
+  padding-right: 15px;
+  border-right: 8px solid #222934;
+}
+#DIA{
+  color:#ACE7B6;
+}
+header div a{
+  font-family: letra2;
+  text-decoration: none;
+  line-height: 70px;
+  color: white;
+    font-size: 30px;
+}
+nav{
+  margin-left:auto;
+}
+#nava ul{
+  margin: 0 0;
+  padding-left: 0px;
+}
+#nava ul li{
+  display: inline-block;
+  text-decoration: none;
+}
+nav ul li a{
+  display: inline-block;
+  text-decoration: none;
+  position: relative;
+  color: white;
+  line-height: 70px;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+#nava ul li a:hover{
+  color:black;
+}
+.negro {
+  color: black;
+}
+.blanco{
+  background-color: white;
+}
+.cpm{
+  width: 1350px;
+  display: flex;
+  margin: 40px 0 40px 0;
+}
+.titG{
+font-size: 50px;
+margin-top: 3%;
+margin-bottom: 60px;
+margin-left: 6%;
+color: #2C4F7D;
+text-decoration:underline;
+}
+.titN{
+ color: #222934;
+ font-size: 30px;
+ margin-left: 3%;
+ margin-bottom: 10px;
+}
+.texN{
+  font-size: 22px;
+  margin-left:3%;
+  color:black;
+  margin-bottom: 50px;
+}
+.ali:active{
+color:white;
+text-decoration-color: white;
+}
+.ali:active h2{
+  color:white;
+}
+.cot{
+  width: 80%;
+}
+table {
+  border: 5px solid #222934;
+  border-radius: 20px;
+}
+th{
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+  width: 30%;
+}
+td{
+  border-bottom: 2px solid black;
+  width: 50%;
+}
+.mart{
+  border-top: 2px solid #516078;
+}
+.margen{
+width: 20%;
+border-left: 2px solid #516078;
+}
+.nolist{
+  text-decoration: none;
+}
+.imgs{
+  border: 5px solid black;
+}
+.imgs:hover{
+  border: 5px solid red;
+}
