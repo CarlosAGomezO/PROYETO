@@ -1,0 +1,32 @@
+.ct{
+  text-align: center;
+  margin: 5px;
+}
+.cv{
+   display: flex;
+   width: 90%;
+   height: 71px;
+   padding-top: 13px;
+}
+.ca{
+  width: 670px;
+}
+.cs{
+  margin-left: auto;
+  line-height: 71px;
+}
+._3{
+  width: 30%;
+  margin-left: 1%;
+  margin-right: 1%;
+  height: 270px;
+}
+.bs{
+  height: 56px;
+}
+.sc{
+  width: 90%;
+  margin-left: 5%;
+  display: flex;
+  margin-top:20px;
+}
