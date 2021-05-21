@@ -18,7 +18,7 @@
 body{
 margin:0px auto 0px auto;
 font-family:letra;
-width: 1350px;
+width: 1250px;
 background: #D8DBDF;
 }
 
@@ -32,7 +32,7 @@ font-family:letra1;
 height: 25px;
 }
 header{
-  width: 1310px;
+  width: 1210px;
   display: flex;
   position: fixed;
   top:0px;
